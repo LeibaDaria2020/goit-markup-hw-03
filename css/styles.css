@@ -1,0 +1,313 @@
+:root {
+  --accent-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #757575;
+  --secondary-color:#212121;
+  --hover-color: #2196F3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*============HEADER=========*/
+
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color:var(--hover-color);
+  
+}
+
+.logo-second-part {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; 
+  letter-spacing: 0.03em; 
+  color: #000000; 
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font);
+}
+
+.header-mail-link,
+.header-tel-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: var(--hover-color);  
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus  {
+color: #2196F3;  
+}
+
+
+/*============END HEADER=========*/
+
+
+/*<===========HERO===========>*/
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1,875;
+  color: #ffffff;
+}
+
+.hero-dark-theme {
+  background: #2F303A; 
+}
+/*<===========END HERO===========>*/
+
+
+/*<===========OUR ADVANTAGES===========>*/
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+
+}
+/*<===========END OUR ADVANTAGES===========>*/
+
+
+/*<===========SERVICES===========>*/
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/*<===========END SERVICES===========>*/
+
+/*============OUR TEAM==============*/
+
+.members-first-img {
+
+}
+.members-second-img {
+
+}
+.members-third-img {
+
+}
+.members-fourth-img {
+  
+}
+
+.member-list-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color: var(--secondary-color); 
+}
+.member-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  /*text-align: center;*/
+  letter-spacing: 0.03em;
+  color:var(--accent-color);
+  
+}
+.team-grey-theme{
+  background: #F5F4FA;
+}
+/*============END OUR TEAM==============*/
+
+/*============FOOTER==============*/
+.footer-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  }
+
+  .footer-mail-item,
+  .footer-tel-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    
+  }
+  .description-dark-theme {
+    background: #2F303A; 
+ }
+/*============END FOOTER==============*/
+
+/*==============PORTFOLIO=============*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*==========PORTFOLIO HEADER=======*/
+
+.logo,
+.logo-first-part {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; 
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.logo-second-part {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192; 
+  letter-spacing: 0.03em; 
+  color: #000000; 
+}
+
+.portf-navigation-item {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+}
+
+.portf-navigation-item:hover,
+.portf-navigation-item:focus {
+color: var(--hover-color);
+}
+
+.portf-mail-link,
+.portf-tel-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,142;
+  letter-spacing: 0.02em; 
+  color: var(--accent-color);  
+}
+
+.portf-mail-link:hover,
+.portf-tel-link:focus {
+  color: var(--hover-color);
+}
+/*==========END PORTFOLIO HEADER=======*/
+
+/*==========PORTFOLIO FILTERS==========*/
+
+.portf-modal-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,625;
+/*text-align: center;*/
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+
+/*НЕ могу подключить хувер на текст кнопки белого цвета, и фокус на кнопку голубого цвета(((*/
+
+.portf-filter-list {
+color: #FFFFFF;
+}
+.portf-filter-list {
+color: var(--hover-color);
+}
+ 
+
+/*==========END PORTFOLIO FILTERS==========*/
+
+/*==============OUR WORKS=============*/
+.works-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em; 
+
+}
+
+.work-list-subtitle {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1,875;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+/*============END OUR WORKS=========*/
+
+/*============PORTF FOOTER=========*/
+
+.portf-address-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714; 
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.dark-theme {
+  background: #2F303A; 
+}
+/*==========END PORTF FOOTER=======*/
+
+/*==============END PORTFOLIO=============*/
