@@ -39,7 +39,6 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: powderblue;
 }
 
 /*============HEADER=========*/
@@ -155,6 +154,10 @@ img {
 /*<===========END HERO===========>*/
 
 /*<===========OUR ADVANTAGES===========>*/
+.advantages {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 
 .container-advantages {
   padding: 94px, 215px;
@@ -204,7 +207,13 @@ p {
 /*<===========END OUR ADVANTAGES===========>*/
 
 /*<===========SERVICES===========>*/
+
+.services {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -215,7 +224,7 @@ p {
 
 .services-list-item {
   margin: 0px;
-  margin-left: -0.36em;
+  /* margin-left: -0.36em; */
 }
 .services-list {
   display: flex;
@@ -224,13 +233,11 @@ p {
 /*<===========END SERVICES===========>*/
 
 /*============OUR TEAM==============*/
+/* .team {
+  margin-top: 94px;
+  margin-bottom: 94px;
+} */
 
-.container-team {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0;
-  background-color: palevioletred;
-}
 .title {
   border-top: 0px;
   margin-bottom: 50px;
@@ -242,6 +249,11 @@ p {
   /*text-align: center;*/
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+.members-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .member-list-description {
@@ -264,6 +276,7 @@ p {
 .services-list-img-last {
   margin-left: 0px;
 }
+
 .team-grey-theme {
   background: #f5f4fa;
 }
