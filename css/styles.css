@@ -13,6 +13,9 @@
   padding: 0;
 }
 
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -32,8 +35,10 @@ img {
 
 .container {
   width: 1200px;
-  padding: 0 15px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: powderblue;
 }
 
@@ -209,19 +214,12 @@ p {
 }
 
 .services-list-item {
-  display: inline-block;
-  width: 370px;
-  height: 294px;
   margin: 0px;
   margin-left: -0.36em;
-
 }
-
-}
-.services-list-item img::nth-child(-n + 2){
-  display: block;
-  width: 370px;
-  /* margin-right: 30px; */
+.services-list {
+  display: flex;
+  justify-content: space-between;
 }
 /*<===========END SERVICES===========>*/
 
