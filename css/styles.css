@@ -6,12 +6,12 @@
   --hover-color: #2196f3;
 }
 
-/* *,
+*,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
-} */
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -206,9 +206,6 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-}
-.services-list:{
-  padding-left:0;
 }
 
 .services-list-item {
