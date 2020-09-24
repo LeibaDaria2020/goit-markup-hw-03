@@ -52,6 +52,7 @@ body {
 }
 .navigation {
   display: flex;
+  align-items: baseline;
 }
 .logo {
   margin-right: 93px;
@@ -164,7 +165,9 @@ body {
 /*<===========END HERO===========>*/
 
 /*<===========OUR ADVANTAGES===========>*/
-
+.advantages {
+  padding-top: 94px;
+}
 .advantages-list {
   display: flex;
   justify-content: space-between;
@@ -329,7 +332,6 @@ body {
   height: 38px;
   border-radius: 4px;
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   font-family: var(--accent-font);
   font-weight: 500;
   font-size: 16px;
