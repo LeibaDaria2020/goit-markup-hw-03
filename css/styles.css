@@ -354,6 +354,8 @@ body {
 /* ==========END PORTFOLIO FILTERS==========*/
 
 /*==============OUR WORKS============= */
+
+/*============END OUR WORKS=========*/
 .works-section {
   padding-bottom: 94px;
 }
@@ -377,7 +379,6 @@ body {
 /* .works-list:nth-child(3n) {
   margin-right: 30px;
 }
-
 .works-list:nth-child(-n + 6) {
   margin-bottom: 30px;
 } */
@@ -385,12 +386,14 @@ body {
 .box-portf {
   display: flex;
   flex-direction: column;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 .box-footer {
-  padding: 20px 24px;
+  padding: 20px 23px;
+  background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .works-list-title {
@@ -409,9 +412,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-
-/*============END OUR WORKS=========*/
-
 /*============PORTF FOOTER=========*/
 
 .portf-address-subtitle {
