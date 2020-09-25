@@ -269,7 +269,7 @@ body {
   padding: 60px 0px;
 }
 .logo-footer {
-  /* не применяется margin-bottom для лого */
+  display: block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
